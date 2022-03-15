@@ -1,0 +1,2 @@
+#Find the earliest year in which there exists 1-gram that appeared in 10,000 or more volumes in that year.
+zcat /home/cs143/data/googlebooks-eng-all-1gram-20120701-s.gz | awk '$4 >= 10000' | sort -k 2,2n | cut -f 2 | head -1
