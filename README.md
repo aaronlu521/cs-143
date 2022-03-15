@@ -1,7 +1,5 @@
 # cs-143
 
-Professor John Cho
-
 From this class, students will learn how to store, manage, and access large-scale data
 using data management systems. Among many existing systems, our primary focus
 will be on relational database management systems (RDBMS) and structured query
