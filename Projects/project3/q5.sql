@@ -1,0 +1,3 @@
+SELECT COUNT(DISTINCT awardYear)
+FROM (Laureates NATURAL JOIN Prize)
+WHERE gender IS NULL AND familyName IS NULL;
